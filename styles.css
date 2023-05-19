@@ -136,7 +136,28 @@ a:hover {
     #resultado {
         margin: 0 5px;
     }
+
+    
 }
 
+@media(max-width: 380px){
+
+    .container{
+        margin: 0 10px;
+        font-size: 1rem;
+    }
+
+    .input {
+        margin: 15px ;
+    }
+
+    #resultado {
+        margin: 0 5px;
+    }
+
+    .input:hover {
+        transform: none;
+    }
+}
 
 
